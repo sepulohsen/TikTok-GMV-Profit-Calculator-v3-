@@ -12,7 +12,20 @@
         table input {
             width: 70px;
         }
-        .result {
+       <table id="skuTable">
+    <tr>
+        <th>SKU Name</th>
+        <th>COGS (RM)</th>
+        <th>Unit Sold</th>
+    </tr>
+    <tr><td><input value="100g"></td><td><input class="cogs" value="2.12"></td><td><input class="unit" value="78"></td></tr>
+    <tr><td><input value="200g"></td><td><input class="cogs" value="3.46"></td><td><input class="unit" value="118"></td></tr>
+    <tr><td><input value="500g"></td><td><input class="cogs" value="7.50"></td><td><input class="unit" value="70"></td></tr>
+    <tr><td><input value="100g + Susu"></td><td><input class="cogs" value="3.11"></td><td><input class="unit" value="100"></td></tr>
+    <tr><td><input value="200g + Susu"></td><td><input class="cogs" value="4.45"></td><td><input class="unit" value="220"></td></tr>
+    <tr><td><input value="500g + Susu"></td><td><input class="cogs" value="8.49"></td><td><input class="unit" value="85"></td></tr>
+</table>
+ .result {
             margin-top: 20px;
             padding: 10px;
             border: 1px solid #ccc;
